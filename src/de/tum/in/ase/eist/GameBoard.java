@@ -111,6 +111,8 @@ public class GameBoard {
 	public void startGame() {
 		// TODO Call the method playMusic() and start the game by setting
 		// isRunning to true
+		playMusic();
+		this.isRunning = true;
 	}
 
 	/**
@@ -119,6 +121,8 @@ public class GameBoard {
 	public void stopGame() {
 		// TODO Call the method stopMusic() and stop the game by setting
 		// isRunning to false
+		stopMusic();
+		this.isRunning = false;
 	}
 
 	/**
@@ -126,13 +130,14 @@ public class GameBoard {
 	 */
 	public void playMusic() {
 		// TODO Call the method playBackgroundMusic on audioPlayer
+		this.audioPlayer.playBackgroundMusic();
 	}
 
 	/**
 	 * Stops the background music
 	 */
 	public void stopMusic() {
-		// TODO Call the method stopBackgroundMusic on audioPlayer
+		this.audioPlayer.stopBackgroundMusic();// TODO Call the method stopBackgroundMusic on audioPlayer
 	}
 
 	/**
