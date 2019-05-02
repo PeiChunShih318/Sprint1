@@ -2,7 +2,7 @@ package de.tum.in.ase.eist;
 
 public class FastCar extends Car {
 
-	public static String DEFAULT_FAST_CAR_IMAGE_FILE = "FastCar.gif";
+	public static String DEFAULT_FAST_CAR_IMAGE_FILE = "SuperSlowCar(2).gif";
 
 	/**
 	 * Constructor for a FastCar.
